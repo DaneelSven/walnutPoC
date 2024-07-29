@@ -1,0 +1,19 @@
+{
+  "name": "walnut",
+  "version": "1.0.0",
+  "description": "Experimental PoC for a solana debugger",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/interactProgram.js",
+    "test": "node dist/test.js",
+    "debug-solana": "ts-node debug.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.1",
+    "@types/node": "^20.14.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "cargo build-sbf --debug",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "solana-debugger",
+      "type": "shell",
+      "command": "solana-ledger-tool program run -l /Users/master/test-ledger -e debugger ${workspaceFolder}/target/deploy/walnut.so"
+    }
+  ]
+}

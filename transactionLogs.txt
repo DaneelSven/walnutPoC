@@ -1,0 +1,40 @@
+RPC URL: http://localhost:8899
+Default Signer Path: /Users/master/.config/solana/id.json
+Commitment: confirmed
+
+Transaction executed in slot 221788:
+  Block Time: 2024-07-28T09:34:50+02:00
+  Version: legacy
+  Recent Blockhash: BmUKP3eQN3baWjDePecMKg6sHmjdkrKzbdBup6KXR2Y9
+  Signature 0: 3Hh3RMxxndFdMXzfXSzCuVpLo7qcUc5AMG1R9YAdBVaC8yvyDrMf1tAQAaMgsjm3Ezjy18oRS1ke92MUW8aYbVgT
+  Account 0: srw- 8ypZgXtNSeqF1mUXnKEkRbLyqVWBZPL8QgGu1sqkKwr9 (fee payer)
+  Account 1: -rw- J3wyWV5AuJkhkx23eFDuSSw3iu5WZMMpKDQYJKSyrRtD
+  Account 2: -r-x 11111111111111111111111111111111
+  Account 3: -r-x ComputeBudget111111111111111111111111111111
+  Instruction 0
+    Program:   ComputeBudget111111111111111111111111111111 (3)
+    Data: [3, 0, 45, 49, 1, 0, 0, 0, 0]
+  Instruction 1
+    Program:   ComputeBudget111111111111111111111111111111 (3)
+    Data: [2, 244, 1, 0, 0]
+  Instruction 2
+    Program:   11111111111111111111111111111111 (2)
+    Account 0: 8ypZgXtNSeqF1mUXnKEkRbLyqVWBZPL8QgGu1sqkKwr9 (0)
+    Account 1: J3wyWV5AuJkhkx23eFDuSSw3iu5WZMMpKDQYJKSyrRtD (1)
+    Transfer { lamports: 1000000000 }
+  Status: Ok
+    Fee: ◎0.000015
+    Account 0 balance: ◎499999984.71850675 -> ◎499999983.7184918
+    Account 1 balance: ◎17 -> ◎18
+    Account 2 balance: ◎0.000000001
+    Account 3 balance: ◎0.000000001
+  Compute Units Consumed: 450
+  Log Messages:
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program 11111111111111111111111111111111 invoke [1]
+    Program 11111111111111111111111111111111 success
+
+Confirmed
